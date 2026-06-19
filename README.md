@@ -1,251 +1,87 @@
-📊 Exploratory Data Analysis (EDA)
-Exploratory Data Analysis (EDA) is the process of investigating datasets to summarize their main characteristics, often using statistical methods and visualizations. It plays a critical role in identifying patterns, anomalies, and relationships that guide preprocessing and model-building decisions.
+<div align="center">
 
-🧠 Why EDA Matters
-EDA is not just visualization — it is decision-making.
+```
+███╗   ██╗██╗██╗   ██╗███████╗██████╗  █████╗ ███╗   ██╗
+████╗  ██║██║██║   ██║██╔════╝██╔══██╗██╔══██╗████╗  ██║
+██╔██╗ ██║██║██║   ██║█████╗  ██║  ██║███████║██╔██╗ ██║
+██║╚██╗██║██║╚██╗ ██╔╝██╔══╝  ██║  ██║██╔══██║██║╚██╗██║
+██║ ╚████║██║ ╚████╔╝ ███████╗██████╔╝██║  ██║██║ ╚████║
+╚═╝  ╚═══╝╚═╝  ╚═══╝  ╚══════╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
+```
 
+### 🎓 Software Engineering Student · AI Enthusiast · 💻 Full-Stack Explorer
 
-Helps understand data distribution and structure
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nivedan-ps-b49513384)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nivedanps1234@gmail.com)
 
+</div>
 
-Detects missing values, noise, and inconsistencies
+---
 
+## 👋 About Me
 
-Identifies feature importance and relationships
+> *"Passionate coding enthusiast on a mission to build things that matter."*
 
+I'm **Nivedan P S**, a pre-final year Computer Science student . I love turning ideas into working software — from web portals to AI-powered tools
 
-Supports feature engineering and selection
 
+## 🛠️ Tech Stack
 
-Prevents incorrect assumptions before modeling
 
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
-📁 Dataset Understanding
-AttributeDescriptionRowsXXXXXColumnsXXXXXData TypesNumerical, Categorical, BooleanTarget VariableYour_Target_Column
-🔎 Feature Types
 
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
-Numerical Features → Continuous & Discrete values
 
 
-Categorical Features → Labels, categories
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
+---
 
-Datetime Features (if applicable)
 
 
-Target Variable → Output we aim to predict
+## 📊 GitHub Stats
 
+<div align="center">
 
+![GitHub Streak](https://streak-stats.demolab.com?user=nivedanps&theme=tokyonight&hide_border=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=nivedanps&theme=tokyo-night)
+</div>
 
-🧹 Data Preprocessing & Cleaning
-🔸 Missing Values Handling
+---
 
 
-Identified missing values using .isnull()
 
+---
 
-Strategies applied:
+<div align="center">
 
+*🌟 Open to internship & fresher opportunities in software development!*
 
-Mean / Median imputation (numerical)
+**Let's connect and build something awesome together.**
 
+[![LinkedIn](https://img.shields.io/badge/Say_Hi_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nivedan-ps-b49513384)
 
-Mode imputation (categorical)
+</div>
 
+<!--
+**nivedanps/nivedanps** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Dropped columns with excessive missing data
+Here are some ideas to get you started:
 
-
-
-
-🔸 Duplicate Records
-
-
-Removed duplicate entries using .drop_duplicates()
-
-
-🔸 Data Type Conversion
-
-
-Converted columns to appropriate formats (e.g., int, float, category)
-
-
-
-📊 Univariate Analysis
-Univariate analysis focuses on one variable at a time.
-📌 Techniques Used
-
-
-Histograms → Understand distribution
-
-
-KDE plots → Density estimation
-
-
-Count plots → Frequency of categories
-
-
-Box plots → Detect outliers
-
-
-🔍 Observations
-
-
-Some features show normal distribution
-
-
-Some are skewed (left/right)
-
-
-Presence of outliers in key variables
-
-
-
-🔗 Bivariate Analysis
-Bivariate analysis examines relationships between two variables.
-📌 Techniques Used
-
-
-Scatter plots → Relationship between numerical variables
-
-
-Box plots → Categorical vs numerical comparison
-
-
-Correlation matrix
-
-
-🔥 Correlation Insights
-
-
-Strong positive/negative correlations identified
-
-
-Weak correlations removed to reduce noise
-
-
-Multicollinearity checked
-
-
-
-🔥 Multivariate Analysis
-
-
-Heatmaps for correlation visualization
-
-
-Pair plots for multiple variable relationships
-
-
-Feature interaction analysis
-
-
-
-📉 Outlier Detection
-Outliers were identified using:
-
-
-IQR (Interquartile Range)
-
-
-Box plots
-
-
-Z-score method
-
-
-⚠️ Action Taken
-
-
-Removed extreme outliers where necessary
-
-
-Retained meaningful outliers (domain-based decision)
-
-
-
-📊 Feature Engineering
-
-
-Created new features based on domain logic
-
-
-Encoded categorical variables:
-
-
-Label Encoding
-
-
-One-Hot Encoding
-
-
-
-
-Normalized / Standardized numerical features
-
-
-
-📈 Visualization Libraries Used
-
-
-Pandas → Data handling
-
-
-Matplotlib → Basic plots
-
-
-Seaborn → Advanced visualizations
-
-
-
-🧩 Key Insights from EDA
-
-
-Important features influencing the target variable were identified
-
-
-Data imbalance detected (if applicable)
-
-
-Noise and irrelevant features removed
-
-
-Strong correlations helped in feature selection
-
-
-Clean dataset prepared for modeling
-
-
-
-🚀 Impact on Model Building
-EDA directly improved:
-
-
-Model accuracy
-
-
-Training efficiency
-
-
-Feature selection strategy
-
-
-Overall robustness of the system
-
-
-
-📌 Final Thoughts
-EDA transformed raw data into meaningful insights, enabling better decision-making and laying a strong foundation for building reliable machine learning models.
-
-✅ If you want next-level README:
-
-
-I can add real code snippets (EDA in Python)
-
-
-Or create a complete README with badges, setup, results, and screenshots
-
-
-Or tailor this exactly for your project (just tell your dataset topic 👍)
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
