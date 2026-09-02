@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1044 >>
+stream
+BT
+/F1 18 Tf
+50 720 Td
+(Artificial Intelligence and Retrieval-Augmented Generation) Tj
+/F1 12 Tf
+0 -35 Td
+(1. Introduction to RAG) Tj
+0 -20 Td
+(Retrieval-Augmented Generation, or RAG, is an AI architecture that enhances) Tj
+0 -15 Td
+(large language models by retrieving relevant facts from an external knowledge) Tj
+0 -15 Td
+(base before generating a response. This reduces hallucinations significantly.) Tj
+0 -30 Td
+(2. Core Components of Local RAG) Tj
+0 -20 Td
+(- Document Processing: Loading files like PDFs and chunking text into pieces.) Tj
+0 -15 Td
+(- Embeddings: Converting text into high-dimensional numerical vectors.) Tj
+0 -15 Td
+(- Vector Database: FAISS is used to perform fast similarity search.) Tj
+0 -15 Td
+(- Local LLM: Models like Qwen generate accurate answers based on context.) Tj
+0 -30 Td
+(3. Advantages of Running RAG Locally) Tj
+0 -20 Td
+(Running RAG locally provides 100% data privacy since no data is sent to external) Tj
+0 -15 Td
+(APIs. It works completely offline, without API subscription fees or rate limits.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001337 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1407
+%%EOF
